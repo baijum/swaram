@@ -1,0 +1,6 @@
+2003-10-29  Baiju M  <baijum81@lycos.com>
+
+	First public release of Swaram.
+
+	* COPYING, ChangeLog, FAQ, README, TODO, VERSION, install.sh, mainWindow.py, messageDialog.py, nt2w, prefWindow.py, swaram, swaram.conf, swaram.desktop, swaram.glade, swaram.png, swaram.py, swaram.xpm, swaramBase.py:
+	New files.

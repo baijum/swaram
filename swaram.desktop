@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Swaram
+Comment=A Frontend for Festival
+Exec=swaram
+StartupNotify=true
+Icon=swaram.png
+Terminal=false
+Type=Application
+Categories=GNOME;Application;AudioVideo;X-Red-Hat-Base;
+X-Desktop-File-Install-Version=0.3

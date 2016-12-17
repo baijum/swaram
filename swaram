@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# python 2.2 or later is required, so set the path accordingly
+# eg:- exec /path/to/python /usr/share/swaram/swaram.py 2> /dev/null
+
+py=`which python`
+gf=swaram.py
+ip=/usr #installation path of swaram
+
+if [ -e swaram.py ] ; then
+    exec $py $gf 2> /dev/null;
+else
+    exec $py $ip/share/swaram/swaram.py 2> /dev/null;
+fi

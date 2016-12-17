@@ -1,0 +1,49 @@
+Swaram TODO List ( Last Update : July 21, 2003 )
+===============================================
+
+Here you can find a list of TODOs for Swaram.
+For each item you will find a state flag (A: assigned, X: finished)
+and a responsible person. If you want to claim a task,
+please contact the person responsible for it.
+Even if you are not a developer or you have only a limited experience,
+you can find tasks for you as well.
+You can also find other tasks on bugzilla.
+If you are working for fixing a bug, please attach a "I'm working on it"
+comment to the bug report.
+
+
+Difficult tasks
+---------------
+
+[X] File reading (Resp: Baiju, assigned to Sreedhar <jh@dsydm.co.in>)
+[X] Reading GNU Info pages (Resp: Baiju)
+[X] Reading GNU Manual pages (Resp: Baiju)
+[X] Prefences Dialog (Resp: Baiju)
+    choose viewers for text,html and pdf files when reading it : less,lynx,gv etc.
+[ ] Progress bar while converting and reading file and man (Resp: Baiju)
+[ ] Volume Control
+[ ] Pause while reading
+[ ] creat setup.py and delete install.sh
+
+Normal tasks
+------------
+
+[ ] Replace all shell scripts with python scripts (Resp: Baiju)
+[ ] A Logo (Resp: Baiju)
+[X] About dialog (Resp: Baiju)
+[ ] Improve the style of TODO list and check for errors (Resp: Baiju)
+[ ] Check whether P_WAIT is required in close stop and button functions (Resp: Baiju)
+[ ] About does not show credits (Resp: Baiju)
+[X] Support for html and pdf reading if lynx and pdftotext installed (Resp: Baiju)
+[ ] Saving sound files
+[ ] Check whether os.system(...) or os.spawnlp(os.P_WAIT...) is better.
+[ ] man pages starts reading only sfter 30 seconds due to the condition 
+    in read function (file : swaramBase.py)
+
+Easy tasks
+----------
+
+[ ] Complete FAQ
+[ ] Complete Main documentation
+[ ] Check for empty file or man field
+[ ] Remove unwanted terminal messages from *.py

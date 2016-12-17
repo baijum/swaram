@@ -1,0 +1,58 @@
+Swaram : A Frontend for Festival
+================================
+
+Copyright 2003  Baiju M <baijum81@lycos.com>
+
+Swaram is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2, or (at your option)
+any later version.
+
+Swaram is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Swaram; see the file COPYING.  If not, write to
+the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+Boston, MA 02111-1307, USA.
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+
+Copyright and License of the scheme script 'nt2w' is given in that file.
+The original name of that file is 'text2wave', which is available with
+'festival' package. The modifications made to the file are :
+1. File name changed.
+2. The second line of the script changed to :-
+   "true" ; exec /usr/bin/festival --script $0 $*
+
+If next version of 'festival' fix this problem, 'nt2w' will be removed from 
+this package.
+----------------------------------------------------------------------
+
+
+Installation
+-=-=-=-=-=-=
+
+1. Login as 'root'
+2. run install.sh script, to run :
+
+	$./install.sh
+
+(You must install 'festival' and 'sox' packages)
+
+
+Usage
+=-=-=
+
+Enter 'swaram' command from terminal.
+
+_________________________________________
+_________________________________________
+
+THIS PACKAGE IS ONLY TESTED IN RedHat 9.0 
+_________________________________________
+_________________________________________
+

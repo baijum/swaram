@@ -1,0 +1,23 @@
+* What can I do with Swaram ?
+
+	You can convert text files to sound files and play it.
+
+* Which python version is required to run Swaram ?
+
+	python version 2.2 or later is required, please check you set the
+	path to your python properly in /usr/share/swaram/swaram script.
+
+* What are the other packages required inorder to work Swaram ?
+
+	You should install 'festival' and 'sox'.
+
+* Why my PDF files not playing ?
+
+	You must have 'xpdf' installed.
+
+* Why cannot I play HTML files ?
+
+	You must have 'lynx' installed.
+
+	('festival', 'sox', 'lynx' and 'xpdf'  are available with most of
+	the GNU/Linux distributions)
